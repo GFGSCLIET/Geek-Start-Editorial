@@ -1,0 +1,36 @@
+A while loop is a control flow statement that allows code to be executed repeatedly based on a given Condition (Boolean). In simple words, The while loop can be thought of as a repeating if statement. You are given an Integer N, print the multiples of N present in between i and j. if no multiples found then print "No".
+
+i and j are not including in the resultant output.
+
+Input Format
+
+The 1st line consists of Integer N , Integer i and Integer j seperated by white spaces.
+
+Constraints
+
+1 <= N <= 1000
+1 <= i <= j <= 1000
+Output Format
+
+print the multiples of N present in between i and j.
+if no output found print "No".
+Sample Input 0
+
+5 48 62
+Sample Output 0
+
+50 55 60
+Explanation 0
+
+here N=5, i = 48, j = 62. the possible multiples of present in between 48 and 62 are 45, 50, 55, 60.
+
+Sample Input 1
+
+26 11 25
+Sample Output 1
+
+No
+Explanation 1
+
+There are no multiples of 26 present in between 11 and 25.
+

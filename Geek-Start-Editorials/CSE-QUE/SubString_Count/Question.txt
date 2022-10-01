@@ -1,0 +1,45 @@
+A substring is a contiguous sequence of characters within a string.You are given a String, print the maximum possible substrings which are having n number of unique alphabets or characters.
+
+Input Format
+
+The line consists of String S followed by integer n.
+
+Constraints
+
+1 ≤ s ≤ 10^5
+1 ≤ |n| ≤ 26
+Output Format
+
+print the number of possible substrings (not necessarily distinct) that has n number of distinct characters.
+
+Sample Input 0
+
+gfgsc 3
+Sample Output 0
+
+3
+Explanation 0
+
+The Possible substring having length of 3 (including distinct elements) in "gfgsc" are 'gfgs', 'fgs', 'gsc'.
+so, the count is 3.
+Sample Input 1
+
+lendi 2
+Sample Output 1
+
+4
+Explanation 1
+
+The possible substing having size 2 are 'le', 'en', 'nd', 'di'.
+the count is 4.
+Submissions: 0
+Max Score: 20
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+Admin Options
+Edit Challenge
+View Submissions
+

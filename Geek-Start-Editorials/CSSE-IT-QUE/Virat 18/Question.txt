@@ -1,0 +1,35 @@
+In the match of India vs Pakistan t20, Pakistan completed its batting and scored high. Now India entered the field. after a few wickets, it's turn for Virat's batting.
+
+print the minimum no. of 6's required for Virat to win the match.
+
+Input Format
+
+the 1st line consists list of Pakistan score , India Score before Virat batting.
+
+Constraints
+
+0<= |Score| <= 10^3
+
+Output Format
+
+print the minimum number of 6's required for this GOAT.
+
+Sample Input 0
+
+172 115
+Sample Output 0
+
+10
+Explanation 0
+
+Pakistan scored 172, and India scored 115. when its turn for Virat the minimum number of 6's required to win the match is 10. (60 runs).
+
+Sample Input 1
+
+102 91
+Sample Output 1
+
+2
+Explanation 1
+
+11 runs to win the match. the minimum 6's required by virat is 2.

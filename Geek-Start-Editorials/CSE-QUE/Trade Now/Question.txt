@@ -34,8 +34,11 @@ Sample Input 1
 5
 7 6 4 3 1
 Sample Output 1
-
 0
+
 Explanation 1
 
 In this case, no transactions are done and the max profit = 0.
+
+
+This change is made

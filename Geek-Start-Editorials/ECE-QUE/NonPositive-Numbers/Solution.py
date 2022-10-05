@@ -1,8 +1,14 @@
-p,i = list(map(int,input().split())) 
+
  
-s = (p-i)//6 
+n = int(input()) 
+a = bin(n)[2:] 
  
-if p>=i: 
-    print(s+1) 
-else: 
-    print(0)
+x ="" 
+ 
+for i in a: 
+    if i=="1": 
+        x+="0" 
+    else: 
+        x+="1" 
+ 
+print(x)

@@ -1,1 +1,42 @@
 
+Dogecoin is a cryptocurrency created by software engineers Billy Markus and Jackson Palmer, who decided to create a payment system as a "joke", making fun of the wild speculation in cryptocurrencies at the time. Now its become the best source of passive income.
+
+Elon wants to make a High Profit. He wants to maximize the profit by choosing a single day to buy one lot and choosing a different day in the future to sell that one lot.
+
+You are given a list L daily prices where L[i] is the price of a dogecoin on an ith day.
+
+Help Elon to have the maximum profit. Print the maximum profit he can achieve from this transaction. If he cannot achieve any profit, Print 0.
+
+Input Format
+
+the 1st line consists of Number of items.
+the 1st line consists of list of prices seperated by white spaces.
+Constraints
+
+1 <= prices.length <= 10^5
+0 <= prices[i] <= 10^4
+Output Format
+
+Print the maximum profit you can achieve from this transaction. If you cannot achieve any profit, Print 0.
+
+Sample Input 0
+
+6
+7 1 5 3 6 4
+Sample Output 0
+
+5
+Explanation 0
+
+Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+
+Sample Input 1
+
+5
+7 6 4 3 1
+Sample Output 1
+
+0
+Explanation 1
+
+In this case, no transactions are done and the max profit = 0.

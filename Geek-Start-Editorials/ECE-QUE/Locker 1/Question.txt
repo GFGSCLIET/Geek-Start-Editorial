@@ -1,0 +1,35 @@
+A man has forgotten his locker password. all he remembers is, that his password has 1 to n unique numbers. he managed to get all the numbers except the last digit. help him to unlock it.
+
+Input Format
+
+the 1st line consists of length of the actual password. The 2nd line consists array of n-1 digits, seperated by white spaces.
+
+Constraints
+
+1 <= n <= 9
+Output Format
+
+print the digit which is missing from the passowrd.
+
+Sample Input 0
+
+9
+7 5 4 1 2 3 9 8
+Sample Output 0
+
+6
+Explanation 0
+
+here, 9 digit password., all digits are present except 6. hence, 6 is the required last digit.
+
+Sample Input 1
+
+6
+2 4 6 1 3
+Sample Output 1
+
+5
+Explanation 1
+
+since 5 the missing digit, 5 is the required number.
+

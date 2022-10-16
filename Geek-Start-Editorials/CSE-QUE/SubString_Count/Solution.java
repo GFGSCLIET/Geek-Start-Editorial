@@ -32,8 +32,12 @@ public class Solution {
         
         String s = sc.next();
         int n = sc.nextInt();
-        
-        System.out.println(substrCount(s,n));
+        if (n==0)
+        {
+            System.out.println(0);
+        }
+        else
+            System.out.println(substrCount(s,n));
         
     }
 }

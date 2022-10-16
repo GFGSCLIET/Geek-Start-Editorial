@@ -1,0 +1,32 @@
+A kid is confused with bit manipulation. help him in solving this problem. you are given an Integer N, and print the inverted bits of the actual given number.
+
+Input Format
+
+The 1st line consists of Number N.
+Constraints
+
+0 <= N <= 10^4
+Output Format
+
+print the reversed bits of the actual given number.
+
+Sample Input 0
+
+10
+Sample Output 0
+
+0101
+Explanation 0
+
+The binary value of 10 is 1010.
+so, the resultant inversion of 1010 is 0101.
+Sample Input 1
+
+0
+Sample Output 1
+
+1
+Explanation 1
+
+The binary of 0 is 0.
+the inverse value of 0 is 1.

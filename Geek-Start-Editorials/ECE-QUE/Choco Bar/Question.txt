@@ -1,0 +1,33 @@
+A kid wants to buy the chocobar of price P at the store. consider the kid is having only 5 and 10 ruppee coins. help the kid to give minimum number of coins to shopkeeper.
+
+Input Format
+
+the 1st line consists of price P of the chocobar.(All possible inputs are multiples of five)
+
+Constraints
+
+0 <= P <= 10^3
+Output Format
+
+Print the minimum number of Coins required to buy the chocobar.
+
+Sample Input 0
+
+45
+Sample Output 0
+
+5
+Explanation 0
+
+The kid is having only 10 ruppee and 5 ruppee coins.
+he will give four 10 ruppee coins and one 5 ruppee coin.
+so, the minimum possible number of coins to purchase the Bar is 5.
+Sample Input 1
+
+50
+Sample Output 1
+
+5
+Explanation 1
+
+the kid will give five 10 ruppee coins.
